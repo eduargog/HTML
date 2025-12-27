@@ -1,0 +1,187 @@
+:root {
+  --color-monochromatic-1: #003400;
+  --color-monochromatic-2: #006414;
+  --color-monochromatic-3: #009929;
+  --color-monochromatic-4: #5ccb5f;
+  --color-monochromatic-5: #98ff96;
+}
+
+body {
+    background-color: rgb(247, 218, 180);
+    min-height: 100vh;
+    margin: 0px;
+}
+
+article > iframe {
+  margin: 0px 25%;
+}
+
+header#caixa-principal {
+  background-image: linear-gradient(to bottom, var(--color-monochromatic-4), var(--color-monochromatic-2));
+    background-color: var(--color-monochromatic-2);
+    width: 100%;
+    padding-top: 10px;
+    margin: auto;
+    height: 150px;
+}
+
+.mensagem {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+
+nav#home {
+    background-color: var(--color-monochromatic-2);
+    width: 100%;
+    box-shadow: 1px 2px 1.9px gray;
+    margin: auto;
+}
+
+.botao {
+    background-color: var(--color-monochromatic-2);
+    height: 35px;
+    width: 105px;
+    margin: 5px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 14px;
+    border-radius: 15px;
+    border: 0px;
+}
+
+.botao:hover {
+  background-color: white;
+  transition: all 0.5s ease;
+  border-radius: 10px;
+}
+
+nav > button > a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+}
+
+main#caixa-segundaria {
+  background-color: white;
+  margin: -20.3px auto;
+  height: auto;
+  box-shadow: 0px 3px 7px gray;
+  border-radius: 0px 0px 20px 20px;
+  min-width: 320px;
+  max-width: 800px;
+}
+
+.marca {
+    background-color: white;
+    color: rgb(18, 87, 18);
+    font-weight: bold;
+}
+
+.main-mensagem {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--color-monochromatic-1);
+  text-align: left;
+  padding: 30px 20px 5px 20px;
+}
+
+p {
+  font: normal 16px Arial, Helvetica, sans-serif;
+  padding: 0px 20px 0px 20px;
+}
+
+main > p {
+  text-indent: 30px;
+}
+
+article > p {
+  text-indent: 30px;
+}
+
+.caixa-div {
+  background-image: linear-gradient(to right, var(--color-monochromatic-3), var(--color-monochromatic-5));
+  margin: auto;
+  width: 96.5%;
+}
+
+.titulo-terceario {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 20px 0px 20px;
+  color: var(--color-monochromatic-1);
+}
+
+.imagem-article {
+  display: block;
+  margin: auto;
+}
+
+div.video {
+  background-color: var(--color-monochromatic-1);
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  padding-bottom: 50%;
+}
+
+.video > iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  height: 90%;
+  width: 90%;
+}
+
+div#aprender {
+  background-color: var(--color-monochromatic-2);
+  margin: auto;
+  width: 90%;
+  border-radius: 10px 10px 0px 0px;
+  margin-top: 60px;
+  box-shadow: 1px 2px 2px gray;
+}
+
+.mensagem-2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  padding: 10px;
+  text-shadow: 1px 1px 2px black;
+}
+
+aside#caixa-curiosidades {
+  background-color: var(--color-monochromatic-4);
+  margin: -20px auto;
+  width: 90%;
+  padding: 20px 0px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 1px 2px 1.9px gray;
+}
+
+aside > ul {
+  list-style-position: inside;
+  columns: 2;
+}
+
+.paragrafo2 {
+  font: normal 16px Arial, Helvetica, sans-serif;
+  padding: 0px 20px 20px 20px;
+  margin: 50px 40px;
+  text-align: left;
+}
+
+footer#termino {
+    background-color: var(--color-monochromatic-1);
+    width: 100%;
+    margin: auto;
+    height: 30px;
+}
+
+footer > p {
+  font: normal 14px Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-shadow: 1px 1px 2px black;
+}
