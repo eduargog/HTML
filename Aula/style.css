@@ -117,6 +117,11 @@ article > p {
   margin: auto;
 }
 
+picture {
+  display: block;
+  margin: auto;
+}
+
 div.video {
   background-color: var(--color-monochromatic-1);
   margin: auto;
