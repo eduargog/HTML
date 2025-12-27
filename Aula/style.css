@@ -117,9 +117,15 @@ article > p {
   margin: auto;
 }
 
-picture {
-  display: block;
-  margin: 0px -3px;
+div.fotos {
+  margin:auto;
+  width: 95%;
+}
+
+div.fotos > picture >img, source {
+  margin: auto;
+  height: auto;
+  max-width: 100%;
 }
 
 div.video {
