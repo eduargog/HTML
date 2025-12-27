@@ -119,7 +119,7 @@ article > p {
 
 picture {
   display: block;
-  margin: auto;
+  margin: 0px -3px;
 }
 
 div.video {
